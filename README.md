@@ -1,43 +1,46 @@
 # Real-time-Personal-Assistant-Chatbot
 
-🤖 Chatbot
-A simple Python-based chatbot developed using chatbot.py. This chatbot can simulate basic conversation, answer questions, and be extended to support advanced NLP features using libraries like NLTK or Hugging Face Transformers.
+# 🤖 Chatbot
 
-chatbot/
-│
-├── chatbot.py             # Main chatbot script
-├── requirements.txt       # Dependencies list
-└── README.md              # Project documentation
+A simple Python-based chatbot developed using `chatbot.py`. This chatbot can simulate basic conversation, answer questions, and be extended to support advanced NLP features using libraries like NLTK or Hugging Face Transformers.
+
+---
+
+## 📂 Project Structure
 
 
-🚀 Features
-Rule-based or AI-based conversational bot.
+---
 
-Easy to customize responses and logic.
+## 🚀 Features
 
-Console-based interaction.
+1. Rule-based or AI-based conversational bot.
+2. Easy to customize responses and logic.
+3. Console-based interaction.
+4. Optional support for natural language understanding (NLTK/Transformers).
 
-Optional support for natural language understanding (NLTK/Transformers).
+---
 
-🧠 Customization
+## 🧠 Customization
+
 To change or add responses:
 
-Open chatbot.py
+1. Open `chatbot.py`
+2. Modify the rules or integrate an NLP model for smarter responses
 
-Modify the rules or integrate an NLP model for smarter responses
+---
 
+## 🛠️ Setup Instructions
 
-Clone the Repository
+### 1. Clone the Repository
 
-  git clone https://github.com/yourusername/chatbot.git
-  cd chatbot
+```bash
+git clone https://github.com/yourusername/chatbot.git
+cd chatbot
 
 Install Dependencies
 
-  pip install -r requirements.txt
+pip install -r requirements.txt
 
 Run the Chatbot
 
-  python chatbot.py
-
-
+python chatbot.py
