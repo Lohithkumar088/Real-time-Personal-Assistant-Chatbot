@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 # Initialize Hugging Face InferenceClient
 client = InferenceClient(
-    api_key="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"  # Replace with your actual Hugging Face API key
+    api_key="hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # Replace with your actual Hugging Face API key
 )
 
 @app.route('/')
