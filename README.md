@@ -28,17 +28,17 @@ Modify the rules or integrate an NLP model for smarter responses
 
 🛠️ Setup Instructions
 
-1. Clone the Repository
+Clone the Repository
 
 git clone https://github.com/yourusername/chatbot.git
 cd chatbot
 
-2. Install Dependencies
+Install Dependencies
 Make sure you have Python 3.7+ installed.
 
 pip install -r requirements.txt
 
-3. Run the Chatbot
+Run the Chatbot
 
 python chatbot.py
 
