@@ -29,15 +29,15 @@ Modify the rules or integrate an NLP model for smarter responses
 
 Clone the Repository
 
-git clone https://github.com/yourusername/chatbot.git
-cd chatbot
+  git clone https://github.com/yourusername/chatbot.git
+  cd chatbot
 
 Install Dependencies
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 Run the Chatbot
 
-python chatbot.py
+  python chatbot.py
 
 
