@@ -19,6 +19,12 @@ Console-based interaction.
 
 Optional support for natural language understanding (NLTK/Transformers).
 
+🧠 Customization
+To change or add responses:
+
+Open chatbot.py
+
+Modify the rules or integrate an NLP model for smarter responses
 
 🛠️ Setup Instructions
 
@@ -36,9 +42,4 @@ pip install -r requirements.txt
 
 python chatbot.py
 
-🧠 Customization
-To change or add responses:
 
-Open chatbot.py
-
-Modify the rules or integrate an NLP model for smarter responses
