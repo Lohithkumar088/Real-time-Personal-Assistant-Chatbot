@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEURA</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <img class="logo" src="{{ url_for('static', filename='images/NEURA.png') }}" alt="NEURA Logo">
+    </div>
+    <div class="chat-history" id="chat-history">
+      <!-- Chat history will be dynamically added here -->
+    </div>
+    <div id="typing-indicator" class="typing-indicator">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
