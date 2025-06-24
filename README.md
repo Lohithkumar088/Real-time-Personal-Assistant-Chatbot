@@ -26,7 +26,6 @@ Open chatbot.py
 
 Modify the rules or integrate an NLP model for smarter responses
 
-🛠️ Setup Instructions
 
 Clone the Repository
 
@@ -34,7 +33,6 @@ git clone https://github.com/yourusername/chatbot.git
 cd chatbot
 
 Install Dependencies
-Make sure you have Python 3.7+ installed.
 
 pip install -r requirements.txt
 
