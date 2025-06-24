@@ -37,6 +37,16 @@ To change or add responses:
 git clone https://github.com/yourusername/chatbot.git
 cd chatbot
 
+Create and Activate Virtual Environment
+
+python -m venv venv
+venv\Scripts\activate
+
+On macOS/Linux:
+
+python3 -m venv venv
+source venv/bin/activate
+
 Install Dependencies
 
 pip install -r requirements.txt
